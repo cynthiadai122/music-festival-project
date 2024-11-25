@@ -1,0 +1,54 @@
+# Node.js dependencies
+node_modules/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Runtime files
+*.log
+*.lock
+*.pid
+*.seed
+*.pid.lock
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Build outputs
+dist/
+build/
+
+# Coverage directory
+coverage/
+
+# IDE/Editor settings
+.vscode/
+.idea/
+*.iml
+
+# Miscellaneous
+*.sublime-workspace
+*.sublime-project
+
+# React-specific files
+.eslintcache
+.next/ # If using Next.js
+.cache/ # If using Gatsby
+
+# Tests
+*.test.js
+*.test.ts
+*.test.tsx
+jest.config.js
+cypress/
+
+# Docker
+docker-compose.override.yml
