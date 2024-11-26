@@ -1,5 +1,3 @@
-// src/api/festivals.ts
-
 export interface Band {
   name: string;
   recordLabel: string;
@@ -28,11 +26,11 @@ export const formatFestivalData = (data: Festival[]): RecordLabelData[] => {
   const recordLabels: Record<string, Record<string, Set<string>>> = {};
 
   data.forEach(festival => {
-    const festivalName: string = festival.name || 'Unknown Festival';
+    const festivalName: string = festival.name || "Unknown Festival";
     const bands: Band[] = festival.bands || [];
 
     bands.forEach(band => {
-      const label: string = band.recordLabel || 'Unknown';
+      const label: string = band.recordLabel || "Unknown";
       const bandName: string = band.name;
 
       if (!recordLabels[label]) {
