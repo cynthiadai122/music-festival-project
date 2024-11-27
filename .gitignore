@@ -43,12 +43,6 @@ coverage/
 .next/ # If using Next.js
 .cache/ # If using Gatsby
 
-# Tests
-*.test.js
-*.test.ts
-*.test.tsx
-jest.config.js
-cypress/
 
 # Docker
 docker-compose.override.yml
